@@ -5,24 +5,16 @@ import java.util.Scanner;
 public class Exercise4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] classStudent= new int[5];
         int[] edad= new int[5];
-        for(int i =0;i<5;i++){
-            System.out.println("ingrese la edad del estudiante : "+ classStudent[i]);
+        for(int i =0;i<edad.length;i++){
+            System.out.println("ingrese la edad del estudiante : "+ i);
             edad[i]= sc.nextInt();
         }
-
         int contadorMayor=0;
         final int mayorEdad =15;
-        for(int x =0;x<5;x++){
-            if (classStudent[x]>=mayorEdad){
-                int[] mayor = new int[contadorMayor];
-                contadorMayor++;
-            }
-        }
-        for (int s =0;s<5;s++){
+        System.out.println("Estudiantes mayores o iguales a  : " + mayorEdad );
 
-        }
+
         sc.close();
     }
 }
