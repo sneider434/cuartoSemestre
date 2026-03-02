@@ -8,6 +8,7 @@ public class Exercise1 {
         String palabra;
         System.out.println("ingrese una palabra");
         palabra= sc.nextLine();
-        System.out.println("su alabra fue :"+ palabra);
+        System.out.println("su palabra fue :"+ palabra);
+
     }
 }
