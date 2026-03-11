@@ -8,5 +8,7 @@ public class main {
         Estudiante estudiante2 = new Estudiante("maria","192513",4.4);
         datosNotas =estudiante2.comprobarNota();
         System.out.println(" usted esta habilitando? : "+datosNotas);
+
+
     }
 }

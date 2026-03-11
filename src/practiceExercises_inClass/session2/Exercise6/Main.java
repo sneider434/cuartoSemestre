@@ -16,6 +16,7 @@ public class Main {
             persona1.ganadorLoteria1= persona1.ganadorLoteria1-(persona1.ganadorLoteria1* persona1.impuestoSinExcedente);
             System.out.println("Se aplico impuestos del 20% debido a que su monto no supera los 100 salarios minimos");
             System.out.println("Su monto neto es de : "+ persona1.ganadorLoteria1);
+
         }
     }
 }
