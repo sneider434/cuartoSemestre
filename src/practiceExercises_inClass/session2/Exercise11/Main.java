@@ -8,7 +8,7 @@ public class Main {
         System.out.println("cuanto dinero desea retirar?");
         Usuario usuario1 = new Usuario(sc.nextDouble());
         System.out.println("Su retiro fue : " + usuario1.getSaldoConPropina());
-
+        System.out.println("su saldo restante en la cuenta es de : "+usuario1.getSaldoFinal());
 
 
     }
