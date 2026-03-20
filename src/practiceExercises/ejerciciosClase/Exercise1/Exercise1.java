@@ -1,0 +1,14 @@
+package practiceExercises.ejerciciosClase.Exercise1;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String palabra;
+        System.out.println("ingrese una palabra");
+        palabra= sc.nextLine();
+        System.out.println("su palabra fue :"+ palabra);
+
+    }
+}

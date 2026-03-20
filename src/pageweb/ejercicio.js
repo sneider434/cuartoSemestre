@@ -23,7 +23,7 @@ const getData = () => {
            body.innerHTML = a
            cargador.classList.add("ocultar")
            info.classList.remove("ocultar")
-           console.log("hola")
+
        })
 
 
