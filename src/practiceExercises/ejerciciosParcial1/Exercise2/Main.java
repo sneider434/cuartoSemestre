@@ -1,4 +1,4 @@
-package practiceExercises.ejerciciosClase.Exercise19;
+package practiceExercises.ejerciciosParcial1.Exercise2;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
                 new Empleado("1049854769","kylian",1800000),
                 new Empleado("1078521456","luka",1000000)
         };
-        int total =Nomina.contadorMayorSalarioMinimo(empleados);
+        int total = Nomina.contadorMayorSalarioMinimo(empleados);
         System.out.println("total :"+total);
 
     }

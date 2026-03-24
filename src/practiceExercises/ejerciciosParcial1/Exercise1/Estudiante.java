@@ -1,4 +1,4 @@
-package practiceExercises.ejerciciosClase.Exercise16;
+package practiceExercises.ejerciciosParcial1.Exercise1;
 
 public class Estudiante {
     String nombre;
@@ -13,8 +13,10 @@ public class Estudiante {
 
     public static double notaMenor( Estudiante[] estudiantes){
         double notaMinima=0;
+        double notaTemporal=Estudiante.notaFinal;
         for(Estudiante estudiante:estudiantes){
-            if(estudiante.getCalificacionFinal()<Estudiante.notaFinal){
+            if(estudiante.getCalificacionFinal()<notaTemporal){
+                notaTemporal=estudiante.getCalificacionFinal();
                 notaMinima=estudiante.getCalificacionFinal();
             }
         }

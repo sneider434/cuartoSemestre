@@ -1,4 +1,4 @@
-package practiceExercises.ejerciciosClase.Exercise16;
+package practiceExercises.ejerciciosParcial1.Exercise1;
 
 public class Main {
     public static void main(String[] args) {

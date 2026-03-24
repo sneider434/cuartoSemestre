@@ -1,4 +1,4 @@
-package practiceExercises.ejerciciosClase.Exercise19;
+package practiceExercises.ejerciciosParcial1.Exercise2;
 
 public class Empleado {
     private String documento;
