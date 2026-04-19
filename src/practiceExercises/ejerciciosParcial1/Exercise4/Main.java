@@ -29,7 +29,6 @@ public class Main {
         }
         System.out.println("-------------------------------------");
         System.out.println(" el pago total de la empresa es de : "+ pagoTotalEmpresa+" dolares");
-
         System.out.println("-------------------------------------");
 
 
