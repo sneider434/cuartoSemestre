@@ -1,10 +1,8 @@
-package practiceExercises.EjerciciosParcial2.Exercise1;
-
-import java.util.ArrayList;
+package Parcial2.Exercise1;
 
 public class EntradaCine {
     public static final String NOMBRE_CINE = "Cine Colombia";
-    private ArrayList<EntradaCine> voletas;
+    public static final double DESCUENTO = 0.25;
     private String pelicula;
     private String horario;
     private double precio;
@@ -13,15 +11,20 @@ public class EntradaCine {
         this.setPrecio(precio);
         this.setPelicula(pelicula);
         this.setHorario(horario);
-        voletas = new ArrayList<>();
     }
-
-    public void agregarVoletas(EntradaCine voleta){
-        voletas.add(voleta);
+    public double calcularPrecioFinal() {
+        return precio;
     }
-    public String getPelicula() { return pelicula; }
-    public String getHorario() { return horario; }
-    public double getPrecio() { return precio; }
+    public void MostrarVentas(){
+        System.out.println(" pelicula :  "+getPelicula() );
+        System.out.println(  "tiene un precio final : "+calcularPrecioFinal());
+    }
+    public String getPelicula() {
+        return pelicula; }
+    public String getHorario() {
+        return horario; }
+    public double getPrecio() {
+        return precio; }
 
     public void setPelicula(String pelicula) {
         this.pelicula = pelicula;
@@ -32,7 +35,5 @@ public class EntradaCine {
     public void setPrecio(double precio){
         this.precio = precio;
     }
-    public double calcularPrecioFinal() {
-        return precio;
-    }
+
 }
