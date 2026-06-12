@@ -17,7 +17,6 @@ public class Polimorfismo {
         recibos.add(rcg1);
         recibos.add(rcl1);
 
-        double mostarr = MostrarRecibos.ver
 
 
 
