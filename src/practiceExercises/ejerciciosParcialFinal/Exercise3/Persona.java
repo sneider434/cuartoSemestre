@@ -1,16 +1,17 @@
-package practiceExercises.ejerciciosParcialFinal.Exercise2;
+package practiceExercises.ejerciciosParcialFinal.Exercise3;
 
 public class Persona {
-    String nombre;
-    int edad;
-
-    public Persona(String nombre,int edad ) {
+    private int edad;
+    private String nombre;
+    public Persona(int edad , String nombre){
         this.setEdad(edad);
         this.setNombre(nombre);
     }
+
     public String getNombre() {
         return nombre;
     }
+
     public void setNombre(String nombre) {
         if(nombre.length()> 10){
             this.nombre=nombre.substring(0,10);
@@ -18,10 +19,11 @@ public class Persona {
             this.nombre = nombre;
         }
     }
-    public int getEdad() {
+
+    public int getEdad(){
         return edad;
     }
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setEdad(int edad){
+        this.edad=edad;
     }
 }

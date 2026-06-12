@@ -1,4 +1,4 @@
-package practiceExercises.ejerciciosParcialFinal.Exercise2;
+package practiceExercises.ejerciciosParcialFinal.Exercise3;
 
 public interface Pagos {
     public double totalPagar();

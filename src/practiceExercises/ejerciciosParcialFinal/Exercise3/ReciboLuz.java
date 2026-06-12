@@ -1,15 +1,17 @@
-package practiceExercises.ejerciciosParcialFinal.Exercise2;
+package practiceExercises.ejerciciosParcialFinal.Exercise3;
 
-public class ReciboGas implements Pagos {
-    public static final double IMPUESTOGAS = 1.2;
+public class ReciboLuz implements  Pagos{
+    public static final double IMPUESTOlUZ = 1.3;
     private double precio;
 
-    public ReciboGas(double precio) {
+    public ReciboLuz(double precio){
         this.setPrecio(precio);
     }
+    @Override
     public double totalPagar(){
-        return this.getPrecio()*ReciboGas.IMPUESTOGAS;
+        return getPrecio()*IMPUESTOlUZ;
     }
+
     public double getPrecio() {
         return precio;
     }
